@@ -12,4 +12,4 @@ The nvenc version for nvidia graphics cards is also available.
 
 Be sure to download and decode the video after creating and uploading it somewhere if you don't want to lose data! Check the sha256 (manually).
 
-2025, python 13
+2025, python 3.13
