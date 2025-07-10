@@ -4,7 +4,7 @@ You can choose the block size and the number of repeating frames in order not to
 
 You need install ffmpeg (add to PATH) and "pip install numpy pillow", i think
 
-You can easy change the ffmpeg video encoding parameters in the program code to the ones you need (Now it's 30fps libx264 medium crf23).
+You can just change the ffmpeg video encoding parameters in the program code to the ones you need, if you need (Now it's 30fps libx264 medium crf23).
 The nvenc version for nvidia graphics cards is also available.
 
 It seems there are limitations for small screen resolutions, and problems with large ones, but it works fine and fast in standard scenarios.
