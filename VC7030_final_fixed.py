@@ -186,7 +186,7 @@ def encode_file_to_video(file_path, M, R, width, height, num_processes):
             '-vcodec', 'rawvideo',
             '-s', f'{width}x{height}',  # Размер кадра
             '-pix_fmt', 'gray',     # Входной формат: 8-битный серый
-            '-r', '60',             # Частота кадров
+            '-r', '30',             # Частота кадров
             '-i', '-',              # Чтение из stdin
             '-c:v', 'libx264',      # Кодек 
             '-pix_fmt', 'yuv420p',  # Формат пикселей
