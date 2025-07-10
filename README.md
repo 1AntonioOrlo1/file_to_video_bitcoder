@@ -1,6 +1,6 @@
 # file_to_video_bitcoder
 Simple and fast analog of fvid, i make it with AI
-You can choose the block size and the number of repeating frames in order not to lose information after compression.
+You can choose the video resolution, block size, and number of repeated frames to avoid losing information after compression.
 
 You need install ffmpeg (add to PATH) and "pip install numpy pillow", i think
 
